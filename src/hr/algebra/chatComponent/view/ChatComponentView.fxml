@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="520.0" styleClass="component-wrapper" stylesheets="@../../res/style/ChatComponentStyle.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.chatComponent.controller.ChatComponentController">
+   <padding>
+      <Insets right="10.0" />
+   </padding>
+</BorderPane>
