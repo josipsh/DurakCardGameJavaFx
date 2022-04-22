@@ -1,10 +1,63 @@
 package hr.algebra.gameComponent.model;
 
-public class Card {
-    private CardRank cardRank;
-    private CardSuit cardSuit;
+public enum Card {
+    THREE_CLUB(0),
+    TWO_CLUB(1),
+    ACE_CLUB(2),
+    KING_CLUB(3),
+    QUEEN_CLUB(4),
+    JACK_CLUB(5),
+    TEN_CLUB(6),
+    NINE_CLUB(7),
+    EIGHT_CLUB(8),
+    SEVEN_CLUB(9),
+    SIX_CLUB(10),
+    FIVE_CLUB(11),
+    FOUR_CLUB(12),
 
-    public String getCardFileName() {
-        return cardRank.toString() + "_" + cardSuit.toString() + ".png";
+    THREE_DIAMOND(13),
+    TWO_DIAMOND(14),
+    ACE_DIAMOND(15),
+    KING_DIAMOND(16),
+    QUEEN_DIAMOND(17),
+    JACK_DIAMOND(18),
+    TEN_DIAMOND(19),
+    NINE_DIAMOND(20),
+    EIGHT_DIAMOND(21),
+    SEVEN_DIAMOND(22),
+    SIX_DIAMOND(23),
+    FIVE_DIAMOND(24),
+    FOUR_DIAMOND(25),
+
+    THREE_HEART(26),
+    TWO_HEART(27),
+    ACE_HEART(28),
+    KING_HEART(29),
+    QUEEN_HEART(30),
+    JACK_HEART(31),
+    TEN_HEART(32),
+    NINE_HEART(33),
+    EIGHT_HEART(34),
+    SEVEN_HEART(35),
+    SIX_HEART(36),
+    FIVE_HEART(37),
+    FOUR_HEART(38),
+
+    THREE_SPADE(39),
+    TWO_SPADE(40),
+    ACE_SPADE(41),
+    KING_SPADE(42),
+    QUEEN_SPADE(43),
+    JACK_SPADE(44),
+    TEN_SPADE(45),
+    NINE_SPADE(46),
+    EIGHT_SPADE(47),
+    SEVEN_SPADE(48),
+    SIX_SPADE(49),
+    FIVE_SPADE(50),
+    FOUR_SPADE(51);
+
+    Card(int value){
+
     }
 }
