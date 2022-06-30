@@ -2,3 +2,40 @@
   -fx-background-color: #343a40ff;
   -fx-border-color: #adb5bdff;
 }
+.player-cards-holder {
+  -fx-background-color: #343a40ff;
+}
+.player-cards-holder > .viewport {
+  -fx-background-color: transparent;
+}
+.player-cards-holder > .corner {
+  -fx-background-color: transparent;
+}
+.scroll-bar:horizontal,
+.scroll-bar:vertical {
+  -fx-background-color: transparent;
+}
+.increment-button,
+.decrement-button {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-background-radius: 0em;
+}
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+  -fx-background-color: #6c757dff;
+  -fx-background-radius: 5em;
+}
+.card-holder {
+  -fx-padding: 5;
+}
+.inactive-player {
+  -fx-text-fill: #e9ecefff;
+  -fx-font-size: 15;
+  -fx-padding: 10;
+}
