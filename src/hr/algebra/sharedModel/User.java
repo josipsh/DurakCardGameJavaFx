@@ -1,9 +1,36 @@
 package hr.algebra.sharedModel;
 
 public class User {
-    private String userId;
-    private String FirstName;
-    private String LastName;
+    private final int userId;
+    private final String FirstName;
+    private final String LastName;
     private String MiddleName;
-    private String userName;
+    private final String userName;
+
+    public User(int userId, String firstName, String lastName, String userName) {
+        this.userId = userId;
+        FirstName = firstName;
+        LastName = lastName;
+        this.userName = userName;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public String getFirstName() {
+        return FirstName;
+    }
+
+    public String getLastName() {
+        return LastName;
+    }
+
+    public String getMiddleName() {
+        return MiddleName;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
 }
