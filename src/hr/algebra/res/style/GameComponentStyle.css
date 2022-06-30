@@ -39,3 +39,20 @@
   -fx-font-size: 15;
   -fx-padding: 10;
 }
+.box-wrapper GridPane {
+  -fx-border-color: #dee2e6ff;
+  -fx-border-style: solid inside;
+  -fx-border-width: 1;
+}
+.box-wrapper Line {
+  -fx-stroke: #f00;
+}
+.timer-text {
+  -fx-text-fill: #e9ecefff;
+  -fx-font-size: 30;
+}
+.other-player-text {
+  -fx-text-fill: #e9ecefff;
+  -fx-font-size: 20;
+  -fx-padding: 10;
+}
